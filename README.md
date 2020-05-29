@@ -22,7 +22,7 @@ bigtable:
     ports:
         - "8086:8086"
     volumes:
-      - ./.cbtrc:/home/appuser/.cbtrc
+      - ./.cbtrc:/home/cbtuser/.cbtrc
     environment:
       BIGTABLE_EMULATOR_HOST: bigtable:8086
 ```
