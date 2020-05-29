@@ -8,7 +8,7 @@ Add the `BIGTABLE_EMULATOR_HOST` environment variable set to your local hostname
 Create a .cbtrc file consiting of the project and instance names.
 E.G.
 
-.cbtrc
+.cbtrc  
 project = local  
 instance = local
 
