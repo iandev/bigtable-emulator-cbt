@@ -9,7 +9,7 @@ Create a .cbtrc file consiting of the project and instance names.
 E.G.
 
 .cbtrc
-project = local
+project = local  
 instance = local
 
 Add this file to the docker compose container as a volume.
